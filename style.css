@@ -1,0 +1,107 @@
+html {
+  background: lightgreen;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+#main {
+ width: 100%; 
+ height:0.0001vh;
+ position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+}
+.logo img{
+  height: 50px;
+  width: 100px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  height: 22px;
+  line-height: 25px;
+  margin: 3px;
+  padding: 0px 13px;
+  display: flex;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hey {
+  color: skyblue;
+  font-weight: 500;
+  font-size: 13px;
+  border-bottom: 2px solid white;
+}
+
+.Bear {
+  width: 250px;
+  height: 250px;
+} 
+
+.Bear img {
+  width: 100%;
+  height: 150%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  color: violet;
+  width: 90%;
+  justify-content:normal;
+  align-items: space-around;
+   position: absolute;
+  transform: none;
+  left: 5%;
+  right: 5%;
+  top: 80px;
+}
+
+.main-text {
+  width: 350px;
+}
+
+.main-text h1 {
+  color: black;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}
+
+.main-text p {
+  color: gray;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: Darkgreen;
+  border-radius: 20px;
+}
